@@ -1,0 +1,212 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash David Kumar-Portfolio</title>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Akash</div>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav_menu" id="navMenu">
+        <li class="active">
+          <a href="#home" onclick="closeMenu()"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="#about" onclick="closeMenu()"><i class="fas fa-user"></i> About</a>
+        </li>
+        <li>
+          <a href="#skill" onclick="closeMenu()"><i class="fas fa-chart-bar"></i> Skill</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="closeMenu()"><i class="fas fa-laptop-code"></i> Projects</a>
+        </li>
+        <li>
+          <a href="#certificates" onclick="closeMenu()"><i class="fa-solid fa-medal"></i> Certificates</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="closeMenu()"
+            ><i class="fas fa-envelope"></i> Contact</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <section id="home" class="home-section section">
+      <div class="home-content">
+        <h1 data-aos="fade-down">Hi,</h1>
+        <h2 data-aos="fade-down">I'm Akash</h2>
+        <br />
+        <p class="typewriter" id="typewriter"></p>
+        <br />
+        <button class="resume-btn" data-aos="fade-down">Resume</button>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/akash-david-kumar-505778351" target="_blank" data-aos="fade-down" data-aos-delay="250"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/AkashDavidKumar" target="_blank"  data-aos="fade-down" data-aos-delay="300"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com" target="_blank" data-aos="fade-down" data-aos-delay="350"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/its_me_mr.akash_2005/" target="_blank" data-aos="fade-down" data-aos-delay="400"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="home-image" data-aos="fade-down">
+        <img src="./assets/image/undraw_feeling_proud_qne1.svg"alt="Web Developer Illustration"/>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="h2v">About Me</h2>
+      <div class="about">
+        <img src="./assets/image/my image-modified.png" alt="Profile Picture" data-aos="fade-down" data-aos-delay="250" />
+        <div class="about-content" data-aos="fade-down">
+          <p>
+            Hello! I'm Akash, a passionate web developer who enjoys creating
+            stunning and functional websites. I specialize in front-end
+            development and love bringing creative ideas to life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+        <section class="skill section" id="skill">
+            
+            <h1> Skills</h1>
+        <div class="content" data-aos="fade-down">
+            <p>I bring ideas to life by crafting stunning and functional websites—blending creativity and code to deliver seamless, user-friendly experiences that inspire.</p>
+            <div class="skill-container">
+                <div class="skill-item" data-aos="fade-down"  data-aos-delay="250">
+                    <div class="percentage">90%</div>
+                    <svg class="circle-progress" width="120" height="120">
+                        <circle cx="60" cy="60" r="50" class="background-circle"></circle>
+                        <circle cx="60" cy="60" r="50" class="progress-circle" stroke-dasharray="314" stroke-dashoffset="31"></circle>
+                    </svg>
+                    <div class="skill-name"><i class="fab fa-html5"></i> HTML</div>
+                </div>
+                <div class="skill-item" data-aos="fade-down"  data-aos-delay="400">
+                    <div class="percentage">85%</div>
+                    <svg class="circle-progress" width="120" height="120">
+                        <circle cx="60" cy="60" r="50" class="background-circle"></circle>
+                        <circle cx="60" cy="60" r="50" class="progress-circle" stroke-dasharray="314" stroke-dashoffset="47"></circle>
+                    </svg>
+                    <div class="skill-name"><i class="fab fa-css3-alt"></i> CSS</div>
+                </div>
+                <div class="skill-item" data-aos="fade-down"  data-aos-delay="550">
+                    <div class="percentage">80%</div>
+                    <svg class="circle-progress" width="120" height="120">
+                        <circle cx="60" cy="60" r="50" class="background-circle"></circle>
+                        <circle cx="60" cy="60" r="50" class="progress-circle" stroke-dasharray="314" stroke-dashoffset="69"></circle>
+                    </svg>
+                    <div class="skill-name"><i class="fab fa-js"></i> JavaScript</div>
+                </div>
+                <div class="skill-item"  data-aos="fade-down"  data-aos-delay="700">
+                    <div class="percentage">60%</div>
+                    <svg class="circle-progress" width="120" height="120">
+                        <circle cx="60" cy="60" r="50" class="background-circle"></circle>
+                        <circle cx="60" cy="60" r="50" class="progress-circle" stroke-dasharray="314" stroke-dashoffset="125"></circle>
+                    </svg>
+                    <div class="skill-name"><i class="fab fa-wordpress"></i> WordPress</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <div class="content">
+          <h1>My Projects</h1>
+          <div class="projects-container">
+                <div class="project-item"  data-aos="fade-down"  data-aos-delay="250">
+                    <img src="./assets/image/to do list.png" alt="Project 1">
+                    <h3>To-Do-List</h3>
+                    <div class="buttons">
+                        <a href="https://github.com/AkashDavidKumar/to-do-list" class="code-btn" target="_blank">Code</a>
+                        <a href="https://akashdavidkumar.github.io/to-do-list/" class="live-btn" target="_blank">Demo</a>
+                    </div>
+                </div>
+                <div class="project-item"  data-aos="fade-down"  data-aos-delay="400">
+                    <img src="./assets/image/work image.webp" alt="Project 2">
+                    <h3>Project Two</h3>
+                    <div class="buttons">
+                        <a href="#" class="code-btn">Code</a>
+                        <a href="#" class="live-btn">Demo</a>
+                    </div>
+                </div>
+                <!-- <div class="project-item"  data-aos="fade-down"  data-aos-delay="550">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Three</h3>
+                    <div class="buttons">
+                        <a href="#" class="code-btn">Code</a>
+                        <a href="#" class="live-btn">Demo</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates section" id="certificates">
+        <div class="content">
+            <h1>My Certificates</h1>
+            <div class="certificates-container">
+                <div class="certificate-item"  data-aos="fade-down"  data-aos-delay="250">
+                    <img src="./assets/image/work image.webp" alt="Certificate 1">
+                    <h3>Certificate One</h3>
+                    <a href="#" class="view-btn">View</a>
+                  </div>
+                  <div class="certificate-item"  data-aos="fade-down"  data-aos-delay="400">
+                    <img src="./assets/image/BU230535_VSCS004.pdf" alt="Certificate 2">
+                    <h3>Certificate Two</h3>
+                    <a href="#" class="view-btn">View</a>
+                  </div>
+                  <!-- <div class="certificate-item"  data-aos="fade-down"  data-aos-delay="550">
+                    <img src="certificate3.jpg" alt="Certificate 3">
+                    <h3>Certificate Three</h3>
+                    <a href="#" class="view-btn">View</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+        <section class="contact section" id="contact">
+        <div class="contact-form">
+            <h2  data-aos="fade-down">Contact Me</h2>
+            <form action="#" method="POST"  data-aos="fade-down">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+        <footer class="footer">
+        <p>&copy; 2025 Akash David Kumar. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+<!-- AOS JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+            duration: 1000, // Animation speed (1 second)
+            once: false
+        });
+    });
+</script>
+
+
+  </body>
+</html>
